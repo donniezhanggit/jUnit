@@ -29,7 +29,7 @@ public class AssertsTest {
 		assertNotNull(int2);*/
 		
 		String tst = "";
-		Integer tst2 = 5;
+		Integer tst2 = 4;
 		assertThat(tst,is(isEmpty(tst)) );
 		assertThat(tst2,is(disivibleBy(2)));
 
